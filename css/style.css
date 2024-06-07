@@ -74,10 +74,12 @@ header .img {
 }
 .recent-posts .top a {
   line-height: 23.5px;
-  color: var(--tuq-kuk);
   font-family: var(--heebo);
   text-decoration: none;
   cursor: pointer;
+  color: var(--qora);
+}.recent-posts .top p{
+  color: var(--tuq-kuk)
 }
 .recent-posts .p{
   font-size: 26px;
@@ -96,6 +98,10 @@ header .img {
 section .middle p:first-child{
   padding: 2px 10px;
   font-weight: 900;
+}
+section .boxes a{
+  text-decoration: none;
+  color: var(--qora);
 }
 section .blog{
   font-weight: 700;
@@ -155,6 +161,9 @@ footer p{
   }
   section .pe{
     margin: 0;
+  }
+  .navbar{
+    margin-bottom: 50px;
   }
   section img{
     width: 450px;
